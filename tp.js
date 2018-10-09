@@ -8,7 +8,7 @@ function criaMensagem(lado, texto) {
   $mensagem.show(100);
 }
 
-setTimeout(function() {criaMensagem('esquerda', 'Ola!');}, 250);
+setTimeout(function() {criaMensagem('esquerda', 'Olá!');}, 250);
 
 $box.keyup(function(e) {
 	if(e.which == 13 && $box.val() != '') {
