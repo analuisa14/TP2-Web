@@ -1,0 +1,5 @@
+cores
+#001842; - palylist - main - box - configurar - adc - titulo -  musica -
+#002e7a; - main
+#396cc5; - direita
+#031c47; - esquerda
