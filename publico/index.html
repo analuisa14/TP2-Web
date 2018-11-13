@@ -1,44 +1,32 @@
-<html>
-    <head>
-        <title>Zapify</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu" rel="stylesheet">
-        <link rel="stylesheet" href="./tp.css">
-        <link rel="icon" href="logo.png">
-    </head>
-    <body>
-        <div id="modal">
-          <h2>Desenvolvedores</h2>
-          
-          <button class="botao-configurar" id="fechar">X</button>
-        </div>
-        <main>
-            <div id="playlist">
-              <div id="configurar">
-                <!--<button class="botao-configurar" id="remover-musica">-</button>-->
-                <button class ="botao-configurar" id="botao-modal">i</button>
-                
-                <button class="botao-configurar" id="adicionar-musica">+</button>
-              </div>
-              <div id="titulo">
-                Zapify
-              </div>
-              <div>
-                <h1>Suas Músicas</h1>
-              </div>  
-              <input autofocus placeholder="Digite aqui" type="text" id="adc">
-            </div>
-            <div id="bot">
-              <div id="chat"></div>
-              <input autofocus placeholder="Digite aqui" type="text" id="box">
-            </div>
-          </main>
-    <script src="jquery-3.3.1.min.js"></script>
-    <script src="modal.js"></script>
-    <script src="java.js"></script>
-    <script src="mais_menos.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="shortcut icon" href="./assets/icon.png">
+    <title>Zapify</title>
+</head>
+<body>
+    <div id="container">
+      <table id="table1">
+        <td><img src="./assets/icon.png" height="120" width="120" id="logo"></td>  
+        <td><h1 class="one">
+            Zapify
+        </h1></td>
+    </table>
+      <p class="two">
+          The perfect music service.
+          <span class="three">Forever.</span>
+      </p>
+      <button class="button" onclick="window.location.href='./chat.html'">Let's Go</button>
+    </div>
+    <div id="particles-js"></div>
 
-    </body>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+      particlesJS.load('particles-js', 'assets/particles.json', () => {console.log('Particles loaded')});
+    </script>
+    <script src="./scripts/index.js"></script>
+</body>
 </html>
